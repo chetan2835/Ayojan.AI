@@ -1,0 +1,26 @@
+remote: error: GH013: Repository rule violations found for refs/heads/initial-project-setup.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— Google Cloud Service Account Credentials ——————————        
+remote:        locations:        
+remote:          - commit: d560daadaf3b4b90823026523481fb0955303c45        
+remote:            path: backend/firebase-admin-key.json:1        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/chetan2835/Ayojan.AI/security/secret-scanning/unblock-secret/38TwVcgSKNTetsxfikL1aFkQ7Wa        
+remote:             
+remote: 
+remote: 
+To https://github.com/chetan2835/Ayojan.AI.git
+ ! [remote rejected] initial-project-setup -> initial-project-setup (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/chetan2835/Ayojan.AI.git'
